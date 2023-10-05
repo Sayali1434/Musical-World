@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSICIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Music World">Music World</li>
+            <li><a href="home.html">Home</a></li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!--Not bootstrap container-->
+    <div class="container">
+        <div class="songlist">
+            <h1>Dangal songs</h1>
+        </div>
+
+        <div class="songPoster"></div>
+    </div>
+<!--Bottom navigation of songs-->
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="far fa 3x fa-solid fa-backward"></i>
+            <i class="far fa 3x fa-solid fa-play"></i>
+            <i class="far fa 3x fa-solid fa-forward"></i>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/fc97921415.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+body{
+    background-color:#000000 ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    font-family: 'Croissant One', cursive;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(73, 72, 72);
+    color: #00BFFF;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    height: 65px;
+    padding: 0 8px;
+    padding-left: 0px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+
+.container{
+    /* container size 60% of total  */
+    height: 60vh;
+    width: 25%;
+    background-color: black;
+    color: #00BFFF;
+    font-family: 'Croissant One', cursive;
+    font-size: 0.6em;
+    display: flex; /*shortcut df*/
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(Dangal.jpg);
+    background-size: 100% 100%;
+}
+
+.bottom{
+    position: sticky;
+    /* height to make strip thicker */
+    height: 85px;
+    background-color: rgb(73, 72, 72);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /*to bring icons to the bottom*/
+}
+
+#progressBar{
+    width: 80vw;
+    text-align: center;
+}
+
+.icons i{
+    padding: 10px;
+}
+
+.icons{
+    margin: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+}
